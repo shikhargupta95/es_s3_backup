@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Elasticsearch endpoint URL
+URL=http://localhost:9200
+
+# Elasticsearch snapshot repository name
+REPO="<NameOfTheSnapshotRepo>"
+
+# Snapshot naming convention
+SNAPSHOT=`date +%Y%m%d-%H%M%S`
+
+#CONFIG FOR S3
+BUCKET_NAME="<NameOfTheBucketGoesHere>"
+
+REGION="<AWSRegionOfTHeBucket>"
+
+ACCESS_KEY="<AccessKey>"
+
+SECRET_KEY="<SecretKey>"
+
